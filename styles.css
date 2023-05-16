@@ -1,0 +1,134 @@
+@font-face {
+  font-family: coffeeCake;
+  src: url(CoffeCake.ttf);
+}
+
+body {
+  /* background-color: #f8f8f8; */
+  background-color: #dcdcdc;
+  font-family: coffeeCake;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+p {
+  font-size: 2em;
+}
+
+li {
+  list-style: none;
+}
+
+#witchpic {
+  width: 170px;
+  height: 170px;
+}
+
+.card {
+  background-color: #f5f5f5;
+  border: 1px solid #dcdcdc;
+  /* border-block-start: 2.5px solid; */
+  box-shadow: 5px 5px 15px #dddddd;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  width: 400px;
+  height: 170px;
+  padding: 6px 15px 19px 17px;
+  /* font-size: 20px; */
+  display: block;
+  margin: auto;
+}
+
+.third_card {
+  height: 200px;
+}
+
+.fourth_card {
+  height: 150px;
+}
+
+.fifth_card {
+  height: 300px;
+  display: block;
+}
+
+#name_input #button {
+  display: block;
+}
+
+.list {
+  position: relative;
+  left: -40px;
+}
+
+.witchcardwrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.witchcard {
+  justify-content: center;
+  align-content: center;
+}
+
+.cryptic_peg_title .Tell_me_your_name_div {
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  background: #282828;
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin: -1px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+  /* position: relative;
+  left: 50px; */
+  /* add a hover ease in ease out */
+}
+
+#icon {
+  display: inline;
+  width: 10px;
+  height: 10px;
+}
+
+#age {
+  font-size: 1.5em;
+  position: relative;
+  left: 130px;
+  bottom: 30px;
+  padding-top: 20px;
+}
+
+#nationality {
+  font-size: 1.5em;
+  position: relative;
+  left: 130px;
+  bottom: 30px;
+  padding-top: 20px;
+}
+
+#gender {
+  font-size: 1.5em;
+  position: relative;
+  left: 130px;
+  bottom: 30px;
+  padding-top: 20px;
+}
